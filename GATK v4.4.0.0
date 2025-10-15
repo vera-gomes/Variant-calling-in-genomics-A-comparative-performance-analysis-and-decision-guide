@@ -1,0 +1,4 @@
+gatk HaplotypeCaller \
+  -R hg38.fa \
+  -I NA12878.bam \
+  -O GATK.vcf.gz
