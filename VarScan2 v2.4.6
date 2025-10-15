@@ -1,0 +1,2 @@
+samtools mpileup -B -f hg38.fa NA12878.bam > NA12878.pileup
+java -jar VarScan.v2.4.6.jar mpileup2snp NA12878.pileup --output-vcf 1 > Varscan2.vcf
