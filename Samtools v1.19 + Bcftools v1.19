@@ -1,0 +1,3 @@
+samtools mpileup -uf hg38.fa NA12878.bam | \
+  bcftools call -mv -Ob -o Samtools.bcf
+bcftools view Samtools.bcf > Samtools.vcf
