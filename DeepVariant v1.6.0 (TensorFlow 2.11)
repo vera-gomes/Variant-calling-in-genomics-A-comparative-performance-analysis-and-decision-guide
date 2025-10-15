@@ -1,0 +1,6 @@
+/opt/deepvariant/bin/run_deepvariant \
+  --model_type=WGS \
+  --ref=hg38.fa \
+  --reads=NA12878.bam \
+  --output_vcf=DeepVariant.vcf.gz \
+  --num_shards=12
