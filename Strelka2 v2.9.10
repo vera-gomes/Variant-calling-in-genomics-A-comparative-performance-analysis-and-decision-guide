@@ -1,0 +1,6 @@
+configureStrelkaGermlineWorkflow.py \
+  --bam NA12878.bam \
+  --referenceFasta hg38.fa \
+  --runDir strelka_run
+cd strelka_run
+./runWorkflow.py -m local -j 12
