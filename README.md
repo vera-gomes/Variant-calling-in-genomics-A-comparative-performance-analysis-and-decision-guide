@@ -16,7 +16,7 @@
     <tr>
       <td><b>GATK</b></td>
       <td>v4.4.0.0</td>
-      <td><code>gatk HaplotypeCaller -R hg38.fa -I NA12878.bam -O GATK.vcf.gz --native-pair-hmm-threads 12</code></td>
+      <td><code>gatk HaplotypeCaller -R hg38.fa -I NA12878.bam -O GATK.vcf.gz </code></td>
       <td>McKenna et al., 2010</td>
     </tr>
     <tr>
