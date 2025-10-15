@@ -1,0 +1,6 @@
+octopus \
+  -R hg38.fa \
+  -I NA12878.bam \
+  -o Octopus.vcf.gz \
+  --threads 12 \
+  --target-somatic-calls false
